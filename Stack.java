@@ -47,6 +47,13 @@ public class Stack {
 			}
 		}
 
+		// Pop and display elements in the stack.
+		void display() {
+			while(!isEmpty()) {
+				System.out.println(pop() +  " Popped from stack");
+			}
+		}
+
 	public static void main(String[] args) {
 		Stack s = new Stack();
 		s.push(10);
